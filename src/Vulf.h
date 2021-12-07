@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 #include "Vulf/Application.h"
+#include "Vulf/Log.h"
 
 // <<<<< ENTRY POINT >>>>>
 #include "Vulf/EntryPoint.h"
