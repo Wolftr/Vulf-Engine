@@ -1,3 +1,3 @@
-[submodule "vendor/spdlog"]
-	path = vendor/spdlog
+[submodule "Vulf/vendor/spdlog"]
+	path = Vulf/vendor/spdlog
 	url = https://github.com/gabime/spdlog

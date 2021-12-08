@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "..\Sandbox\Sandbox.vcxproj", "{14AEAA7B-D978-4EC7-BA17-495628D71612}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "..\VulfEngine\Sandbox\Sandbox.vcxproj", "{14AEAA7B-D978-4EC7-BA17-495628D71612}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VulfEngine", "VulfEngine.vcxproj", "{E03C2A89-7B18-43DB-9D0D-AEC80E99C447}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VulfEngine", "..\VulfEngine\Vulf\VulfEngine.vcxproj", "{E03C2A89-7B18-43DB-9D0D-AEC80E99C447}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
