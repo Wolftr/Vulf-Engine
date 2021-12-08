@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Vulf">
+      <UniqueIdentifier>{22388E7C-0E6F-8F0D-B75B-7510A3710B0F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Vulf.h" />
+    <ClInclude Include="src\Vulf\Application.h">
+      <Filter>Vulf</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vulf\Core.h">
+      <Filter>Vulf</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vulf\EntryPoint.h">
+      <Filter>Vulf</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vulf\Log.h">
+      <Filter>Vulf</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Vulf\Application.cpp">
+      <Filter>Vulf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vulf\Log.cpp">
+      <Filter>Vulf</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
