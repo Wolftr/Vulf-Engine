@@ -26,6 +26,7 @@ project "Vulf"
 
     includedirs
     {
+        "Vulf/src",
         "Vulf/vendor/spdlog/include",
     }
 

@@ -9,3 +9,5 @@
 #else
 	#error Vulf Engine is not supported on this platform!
 #endif
+
+#define BIT(x) (1 << x)

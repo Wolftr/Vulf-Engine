@@ -4,6 +4,9 @@
     <Filter Include="Vulf">
       <UniqueIdentifier>{22388E7C-0E6F-8F0D-B75B-7510A3710B0F}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Vulf\Events">
+      <UniqueIdentifier>{C62993A3-32DF-0B99-BBD3-05702788029D}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Vulf.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Vulf\EntryPoint.h">
       <Filter>Vulf</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vulf\Events\ApplicationEvent.h">
+      <Filter>Vulf\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vulf\Events\Event.h">
+      <Filter>Vulf\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vulf\Events\KeyEvent.h">
+      <Filter>Vulf\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vulf\Events\MouseEvent.h">
+      <Filter>Vulf\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Vulf\Log.h">
       <Filter>Vulf</Filter>
