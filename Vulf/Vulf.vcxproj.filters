@@ -34,6 +34,7 @@
     <ClInclude Include="src\Vulf\Log.h">
       <Filter>Vulf</Filter>
     </ClInclude>
+    <ClInclude Include="src\vulfpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Vulf\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\Vulf\Log.cpp">
       <Filter>Vulf</Filter>
     </ClCompile>
+    <ClCompile Include="src\vulfpch.cpp" />
   </ItemGroup>
 </Project>

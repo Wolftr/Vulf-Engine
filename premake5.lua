@@ -18,6 +18,9 @@ project "Vulf"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+    pchheader "vulfpch.h"
+    pchsource "Vulf/src/vulfpch.cpp"
+
     files
     {
         "%{prj.name}/src/**.h",

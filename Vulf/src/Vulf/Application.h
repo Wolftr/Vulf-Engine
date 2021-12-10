@@ -1,5 +1,6 @@
 #pragma once
 
+#include <vulfpch.h>
 #include "Core.h"
 #include "Events/Event.h"
 

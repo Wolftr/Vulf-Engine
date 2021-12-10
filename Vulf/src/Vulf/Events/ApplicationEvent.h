@@ -1,5 +1,6 @@
 #pragma once
 
+#include <vulfpch.h>
 #include "Event.h"
 
 namespace Vulf {

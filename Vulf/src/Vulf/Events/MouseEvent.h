@@ -1,8 +1,7 @@
 #pragma once
 
+#include <vulfpch.h>
 #include "Event.h"
-
-#include <sstream>
 
 namespace Vulf {
 

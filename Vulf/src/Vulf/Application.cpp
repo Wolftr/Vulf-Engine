@@ -1,3 +1,4 @@
+#include "vulfpch.h"
 #include "Application.h"
 
 #include "Vulf/Events/ApplicationEvent.h"

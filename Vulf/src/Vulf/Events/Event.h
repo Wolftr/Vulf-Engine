@@ -1,10 +1,7 @@
 #pragma once
 
+#include <vulfpch.h>
 #include "Vulf/Core.h"
-
-#include <string>
-#include <sstream>
-#include <functional>
 
 namespace Vulf {
 
