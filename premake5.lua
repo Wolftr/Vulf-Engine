@@ -10,6 +10,11 @@ workspace "VulfEngine"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+IncludeDir = {}
+IncludeDir["GLFW"] = "Vulf/vendor/GLFW/include"
+
+include "Vulf/vendor/GLFW"
+
 project "Vulf"
     location "Vulf"
     kind "SharedLib"
@@ -31,6 +36,13 @@ project "Vulf"
     {
         "Vulf/src",
         "Vulf/vendor/spdlog/include",
+        "%{IncludeDir.GLFW}",
+    }
+
+    links 
+    {
+        "GLFW",
+        "opengl32.lib"
     }
 
     filter "system:windows"

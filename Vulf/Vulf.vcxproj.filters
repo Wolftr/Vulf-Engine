@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{2AC788B4-1694-E3BF-3FAD-D1672BD9184E}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Vulf">
       <UniqueIdentifier>{22388E7C-0E6F-8F0D-B75B-7510A3710B0F}</UniqueIdentifier>
     </Filter>
@@ -9,6 +12,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Platform\WindowsWindow.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
     <ClInclude Include="src\Vulf.h" />
     <ClInclude Include="src\Vulf\Application.h">
       <Filter>Vulf</Filter>
@@ -34,9 +40,15 @@
     <ClInclude Include="src\Vulf\Log.h">
       <Filter>Vulf</Filter>
     </ClInclude>
+    <ClInclude Include="src\Vulf\Window.h">
+      <Filter>Vulf</Filter>
+    </ClInclude>
     <ClInclude Include="src\vulfpch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Platform\WindowsWindow.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
     <ClCompile Include="src\Vulf\Application.cpp">
       <Filter>Vulf</Filter>
     </ClCompile>
